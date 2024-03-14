@@ -1,0 +1,82 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/******Header******/
+.navbar-brand h1{
+  font-size: 40px;
+  font-family: 'Oxygen',sans-serif;
+  font-weight: bold;
+  text-align: left;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-bottom: 0;
+  border-color: black;
+  margin-left: 20px;
+}
+
+.navbar-brand a:hover , .navbar-brand a:focus{
+  text-decoration: none;
+}
+
+#header-nav{
+  background-color: gray;
+  border-radius: 0;
+  border-bottom: 2px;
+}
+
+/* .navbar-toggler {
+  background-color: white;
+} */
+
+#nav-list a {
+  color: #0c0b0c;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #d7d7d7;
+}
+
+/******Body******/
+body{
+  font-family: 'Oxygen',sans-serif ;
+  font-size: 16px;
+  font-weight: bold;
+  color:black;
+}
+
+.content{
+  width: 100%;
+  background-color: gray;
+  position: relative;
+  font-family: Helvetica, sans-serif;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.subTopic{
+  width: 100%;
+  position : absolute;
+  font-size: 25px;
+  font-weight: bold;
+  font-family:  Helvetica, sans-serif; 
+  top:5x;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container{
+  margin-left: 20px;
+	margin-right: 20px;
+}
+
